@@ -7,7 +7,7 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": ""
+                    "href": "https://github.com/Ashish-Ramrakhiani/BugSleuth"
                 }
                
             ],
@@ -54,7 +54,7 @@
                 "Deep Learning",
                 "Hyperspectral image analysis",
                 "Python",
-                "Dara Science",
+                "Data Science",
                 "U-Net"
             ]
         },
@@ -83,7 +83,7 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": ""
+                    "href": "https://github.com/FLARE-forecast/FLAREr"
                 }
             ],
             "tags" : [
