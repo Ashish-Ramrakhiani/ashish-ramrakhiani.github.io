@@ -38,7 +38,7 @@
                     "title": "Nodejs"
                 },
                 {
-                    "icon": "images/skills/express.svg",
+                    "icon": "images/skills/express.png",
                     "title": "Expressjs"
                 },
                 {
@@ -58,7 +58,7 @@
                     "title": "PHP"
                 },
                 {
-                    "icon": "images/skills/flutter.svg",
+                    "icon": "images/skills/flutter.png",
                     "title": "Flutter"
                 },
                 {
@@ -75,7 +75,7 @@
                 },
                 
                 {
-                    "icon": "images/skills/restapi.svg",
+                    "icon": "images/skills/restapi.jpg",
                     "title": "  Restful API dev"
                 }
         ]},
