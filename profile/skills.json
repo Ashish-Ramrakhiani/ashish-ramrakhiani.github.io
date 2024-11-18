@@ -1,0 +1,160 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "skills": [{
+     
+            "title": "Programming and Development",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/SAP_ABAP.png",
+                    "title": "SAP ABAP"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/R_logo.svg",
+                    "title": "R"
+                },
+                {
+                    "icon": "images/skills/c++.png",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/sql.svg",
+                    "title": "SQL"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/express.svg",
+                    "title": "Expressjs"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/redux.svg",
+                    "title": "Redux"
+                },
+                {
+                    "icon": "images/skills/Bootstrap.svg",
+                    "title": "Bootstrap"
+                },
+                {
+                    "icon": "images/skills/php.png",
+                    "title": "PHP"
+                },
+                {
+                    "icon": "images/skills/flutter.svg",
+                    "title": "Flutter"
+                },
+                {
+                    "icon": "images/skills/android_new.png",
+                    "title": "Android"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/opengl.svg",
+                    "title": "OpenGL & GLSL"
+                },
+                
+                {
+                    "icon": "images/skills/restapi.svg",
+                    "title": "  Restful API dev"
+                }
+        ]},
+        {
+            "title": "Data & Machine Learning",
+            "items" : [
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "Mongo DB"
+                },
+                {
+                    "icon": "images/skills/snowflake.png",
+                    "title": "Snowflake"
+                },
+                {
+                    "icon": "images/skills/Sigma.png",
+                    "title": "Sigma"
+                },
+                {
+                    "icon": "images/skills/Tableau.png",
+                    "title": "Tableau"
+                },
+                {
+                    "icon": "images/skills/dbt.png",
+                    "title": "DBT"
+                },
+                {
+                    "icon": "images/skills/airflow.png",
+                    "title": "Apache Airflow"
+                },
+                {
+                    "icon": "images/skills/scikitlearn.svg",
+                    "title": "Scikit-learn"
+                },
+                {
+                    "icon": "images/skills/tensorflow.png",
+                    "title": "Tensorflow"
+                },
+                {
+                    "icon": "images/skills/hyperspectral.png",
+                    "title": "HyperSpectral Imaging"
+                },
+                {
+                    "icon": "images/skills/genetic-programming.png",
+                    "title": "Genetic Programming"
+                }
+            ]
+        },
+        {
+            "title" : "Cloud & Serverless Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/aws.svg",
+                    "title": "AWS (Lambda,EC2,S3)"
+                },
+                {
+                    "icon": "images/skills/gcp.svg",
+                    "title": "GCP"
+                },
+                {
+                    "icon": "images/skills/githubactions.png",
+                    "title": "Github Actions"
+                },
+                {
+                    "icon": "images/skills/faas.jpg",
+                    "title": "FaaS"
+                },
+                {
+                    "icon": "images/skills/MINIO.png",
+                    "title": "MinIO"
+                },
+                {
+                    "icon": "images/skills/openwhisk.jpg",
+                    "title": "OpenWhisk"
+                }
+            ]
+    }
+]}

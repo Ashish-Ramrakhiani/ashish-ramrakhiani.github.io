@@ -1,0 +1,32 @@
+{
+    "education":[
+        {
+            "title": "Sep 2023 - Sep 2025",
+            "cardTitle": "Master of Science, Computer Science",
+            "cardSubtitle":"Orgeon State University, Corvallis, USA",
+            "cardDetailedText": "CGPA - 3.95/4.0",
+            "icon" : {
+                "src": "images/education/osu.png"
+            }
+        },
+        {
+            "title": "June 2016 - June 2019",
+            "cardTitle": "Bachelor of Technology, Computer Science",
+            "cardSubtitle":"K.J Somaiya College of Engineering, Mumbai,India",
+            "cardDetailedText": "CGPA - 9.27/10"
+            
+        },
+        {
+            "title": "May 2013 - May 2016",
+            "cardTitle": "Diploma in Computer Technology",
+            "cardSubtitle":"Smt. S.H Mansukhani Institute of Technology, Ulhasnagar, India",
+            "cardDetailedText": "Score - 90.59%"
+        },
+        {
+            "title": "March 2013",
+            "cardTitle": "High School",
+            "cardSubtitle":"Fatima High School, Ambarnath, India",
+            "cardDetailedText": "Score - 94.73%"
+        }
+    ]
+}

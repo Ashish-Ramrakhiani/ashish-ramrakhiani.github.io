@@ -1,0 +1,102 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/bugsleuth-poster.png",
+            "title": "BugSleuth",
+            "bodyText": "- Unsupervised Bug localization technique\n -  Real time debuggin with millisecond runtime.\n - Localizes 56% of bugs in 704 real word Java projects in top-5 ranked statements.\n - Submitted to International Conference on Software Engineering (ICSE'25)",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                }
+               
+            ],
+            "tags" : [
+                "Genetic Programming",
+                "Unsupervised Learning",
+                "Real-Time Analysis",
+                "Bug Localization",
+                "Debugging Technique"
+            ]
+        },
+        {
+            "image" : "images/projects/vivamind.png",
+            "title": "Viva Mind -  Mental Health and Wellness Tracker",
+            "bodyText": "- Mental Health tracking platform built on MERN stack.\n- 5k+ active users.\n- AI-driven sentiment analysis on user journal entries.\n- Personalized recommendations and mood based content.\n- Scalable MongoDB data model supporting 1million+ data points.\n- B2B therapist integrations",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                }
+                
+            ],
+            "tags" : [
+                "React",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Sentiment Analysis",
+                "Full Stack Development",
+                "Data modelling"
+            ]
+        },
+        {
+            "image" : "images/projects/isro.jpeg",
+            "title": "Automated Wetland Delineation",
+            "bodyText": "- An automated system for mapping wetlands.\n - Uses hyperspectral LISS-III image data.\n - Atrous convolutional neural network for segmentation of wetlands.\n - Highlights commission and omission errors in manual wetland delineation.\n - Used as a quality control tool at ISRO reducing manual effort by 80%.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "Deep Learning",
+                "Hyperspectral image analysis",
+                "Python",
+                "Dara Science",
+                "U-Net"
+            ]
+        },
+        {
+            "image" : "images/projects/college.jpeg",
+            "title": "College Recommendation App",
+            "bodyText": "- Mobile Application built using Flutter for college recommendation.\n - A python based web scraper scrapes relevant college details based on user profile .\n - A recommendation algoritm recommends colleges to users with 97.89% accuracy.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "Flutter",
+                "Web scraping",
+                "BeautifulSoup",
+                "Machine Learning",
+                "Python"
+            ]
+        },
+        {
+            "image" : "images/projects/flare.jpeg",
+            "title": "FLARE: Forecasting Lake and Reservior Ecosystems",
+            "bodyText": "- Transformed FLARE into a serverless, multi-cloud architecture using FaaS.\n - Enabled scalable, real-time forecasting automation on AWS Lambda, Github Actions and OpenWhisk.\n - Automated data assimilation and forecast processing, enhancing cloud orchestration across multiple monitoring sites.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "Servlerless Architecture",
+                "Cloud Orchestration",
+                "Data Assimilation",
+                "Forecasting",
+                "AWS Lambda",
+                "MinIO",
+                "OpenWhisk",
+                "Github Actions"
+            ]
+        }
+        
+    ]
+}
