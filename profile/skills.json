@@ -22,12 +22,20 @@
                     "title": "JavaScript"
                 },
                 {
+                    "icon": "images/skills/typescript.svg",
+                    "title": "TypeScript"
+                },
+                {
                     "icon": "images/skills/R_logo.svg",
                     "title": "R"
                 },
                 {
                     "icon": "images/skills/c++.png",
                     "title": "C++"
+                },
+                {
+                    "icon": "images/skills/csharp.svg",
+                    "title": "C#"
                 },
                 {
                     "icon": "images/skills/sql.svg",
@@ -50,8 +58,20 @@
                     "title": "Redux"
                 },
                 {
+                    "icon": "images/skills/nextjs.svg",
+                    "title": "Next.js"
+                },
+                {
                     "icon": "images/skills/Bootstrap.svg",
                     "title": "Bootstrap"
+                },
+                {
+                    "icon": "images/skills/html.svg",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
                 },
                 {
                     "icon": "images/skills/php.png",
@@ -73,10 +93,29 @@
                     "icon": "images/skills/opengl.svg",
                     "title": "OpenGL & GLSL"
                 },
-                
+                {
+                    "icon": "images/skills/springboot.svg",
+                    "title": "Spring Boot"
+                },
+                {
+                    "icon": "images/skills/hibernate.svg",
+                    "title": "Hibernate"
+                },
+                {
+                    "icon": "images/skills/graphql.svg",
+                    "title": "GraphQL"
+                },
+                {
+                    "icon": "images/skills/websockets.svg",
+                    "title": "WebSockets"
+                },
+                {
+                    "icon": "images/skills/bash.svg",
+                    "title": "Bash/Shell"
+                },
                 {
                     "icon": "images/skills/restapi.jpg",
-                    "title": "  Restful API dev"
+                    "title": "Restful API dev"
                 }
         ]},
         {
@@ -89,6 +128,10 @@
                 {
                     "icon": "images/skills/mongo-db.png",
                     "title": "Mongo DB"
+                },
+                {
+                    "icon": "images/skills/oracle.png",
+                    "title": "Oracle"
                 },
                 {
                     "icon": "images/skills/snowflake.png",
@@ -119,29 +162,61 @@
                     "title": "Tensorflow"
                 },
                 {
+                    "icon": "images/skills/deeplearning.png",
+                    "title": "Deep Learning"
+                },
+                {
+                    "icon": "images/skills/sentimentanalysis.png",
+                    "title": "Sentiment Analysis"
+                },
+                {
                     "icon": "images/skills/hyperspectral.png",
                     "title": "HyperSpectral Imaging"
                 },
                 {
                     "icon": "images/skills/genetic-programming.png",
                     "title": "Genetic Programming"
+                },
+                {
+                    "icon": "images/skills/webscraping.png",
+                    "title": "Web Scraping"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "BeautifulSoup"
                 }
             ]
         },
         {
-            "title" : "Cloud & Serverless Platforms",
+            "title" : "Cloud & DevOps",
             "items": [
                 {
                     "icon": "images/skills/aws.svg",
-                    "title": "AWS (Lambda,EC2,S3)"
+                    "title": "AWS (Lambda,EC2,S3,RDS)"
                 },
                 {
                     "icon": "images/skills/gcp.svg",
                     "title": "GCP"
                 },
                 {
+                    "icon": "images/skills/azure.png",
+                    "title": "Azure"
+                },
+                {
                     "icon": "images/skills/githubactions.png",
                     "title": "Github Actions"
+                },
+                {
+                    "icon": "images/skills/jenkins.svg",
+                    "title": "Jenkins"
+                },
+                {
+                    "icon": "images/skills/docker.svg",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/vercel.svg",
+                    "title": "Vercel"
                 },
                 {
                     "icon": "images/skills/faas.jpg",
@@ -154,7 +229,83 @@
                 {
                     "icon": "images/skills/openwhisk.jpg",
                     "title": "OpenWhisk"
+                },
+                {
+                    "icon": "images/skills/bash.svg",
+                    "title": "SLURM"
                 }
             ]
-    }
-]}
+        },
+        {
+            "title": "SAP & Enterprise Technologies",
+            "items": [
+                {
+                    "icon": "images/skills/sap.png",
+                    "title": "SAP MDG"
+                },
+                {
+                    "icon": "images/skills/sap.png",
+                    "title": "SAP HANA"
+                },
+                {
+                    "icon": "images/skills/sap.png",
+                    "title": "Fiori/UI5"
+                },
+                {
+                    "icon": "images/skills/sap.png",
+                    "title": "Webdynpro"
+                },
+                {
+                    "icon": "images/skills/sap.png",
+                    "title": "OData"
+                },
+                {
+                    "icon": "images/skills/sap.png",
+                    "title": "CDS Views"
+                },
+                {
+                    "icon": "images/skills/sap.png",
+                    "title": "BRF+"
+                }
+            ]
+        },
+        {
+            "title": "Security & Testing",
+            "items": [
+                {
+                    "icon": "images/skills/oauth.png",
+                    "title": "OAuth 2.0"
+                },
+                {
+                    "icon": "images/skills/jwt.svg",
+                    "title": "JWT"
+                },
+                {
+                    "icon": "images/skills/owasp.svg",
+                    "title": "OWASP"
+                },
+                {
+                    "icon": "images/skills/junit.svg",
+                    "title": "JUnit"
+                },
+                {
+                    "icon": "images/skills/mockito.svg",
+                    "title": "Mockito"
+                }
+            ]
+        },
+        {
+            "title": "Monitoring & Analysis",
+            "items": [
+                {
+                    "icon": "images/skills/elk.svg",
+                    "title": "ELK Stack"
+                },
+                {
+                    "icon": "images/skills/agile.png",
+                    "title": "Agile/Scrum"
+                }
+            ]
+        }
+    ]
+}
