@@ -1,102 +1,152 @@
 {
-    "projects" : [
-        {
-            "image" : "images/projects/bugsleuth-poster.png",
-            "title": "BugSleuth",
-            "bodyText": "- Unsupervised Bug localization technique\n -  Real time debuggin with millisecond runtime.\n - Localizes 56% of bugs in 704 real word Java projects in top-5 ranked statements.\n - Submitted to International Conference on Software Engineering (ICSE'25)",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/Ashish-Ramrakhiani/BugSleuth"
-                }
-               
-            ],
-            "tags" : [
-                "Genetic Programming",
-                "Unsupervised Learning",
-                "Real-Time Analysis",
-                "Bug Localization",
-                "Debugging Technique"
-            ]
-        },
-        {
-            "image" : "images/projects/vivamind.png",
-            "title": "Viva Mind -  Mental Health and Wellness Tracker",
-            "bodyText": "- Mental Health tracking platform built on MERN stack.\n- 5k+ active users.\n- AI-driven sentiment analysis on user journal entries.\n- Personalized recommendations and mood based content.\n- Scalable MongoDB data model supporting 1million+ data points.\n- B2B therapist integrations",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": ""
-                }
-                
-            ],
-            "tags" : [
-                "React",
-                "Node.js",
-                "Express.js",
-                "MongoDB",
-                "Sentiment Analysis",
-                "Full Stack Development",
-                "Data modelling"
-            ]
-        },
-        {
-            "image" : "images/projects/isro.jpeg",
-            "title": "Automated Wetland Delineation",
-            "bodyText": "- An automated system for mapping wetlands.\n - Uses hyperspectral LISS-III image data.\n - Atrous convolutional neural network for segmentation of wetlands.\n - Highlights commission and omission errors in manual wetland delineation.\n - Used as a quality control tool at ISRO reducing manual effort by 80%.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": ""
-                }
-            ],
-            "tags" : [
-                "Deep Learning",
-                "Hyperspectral image analysis",
-                "Python",
-                "Data Science",
-                "U-Net"
-            ]
-        },
-        {
-            "image" : "images/projects/college.jpeg",
-            "title": "College Recommendation App",
-            "bodyText": "- Mobile Application built using Flutter for college recommendation.\n - A python based web scraper scrapes relevant college details based on user profile .\n - A recommendation algoritm recommends colleges to users with 97.89% accuracy.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": ""
-                }
-            ],
-            "tags" : [
-                "Flutter",
-                "Web scraping",
-                "BeautifulSoup",
-                "Machine Learning",
-                "Python"
-            ]
-        },
-        {
-            "image" : "images/projects/flare.jpeg",
-            "title": "FLARE: Forecasting Lake and Reservior Ecosystems",
-            "bodyText": "- Transformed FLARE into a serverless, multi-cloud architecture using FaaS.\n - Enabled scalable, real-time forecasting automation on AWS Lambda, Github Actions and OpenWhisk.\n - Automated data assimilation and forecast processing, enhancing cloud orchestration across multiple monitoring sites.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/FLARE-forecast/FLAREr"
-                }
-            ],
-            "tags" : [
-                "Servlerless Architecture",
-                "Cloud Orchestration",
-                "Data Assimilation",
-                "Forecasting",
-                "AWS Lambda",
-                "MinIO",
-                "OpenWhisk",
-                "Github Actions"
-            ]
-        }
-        
+    "projects": [
+      {
+        "image": "images/projects/faasr_logo.png",
+        "title": "FaaSr: Multi-Cloud Serverless Framework",
+        "bodyText": "- Architected FaaSr, a serverless framework for multi-cloud deployment (AWS, GCP, OpenWhisk, SLURM, GitHub Actions).\n- Containerized workflows with Docker; integrated JWT and OAuth 2.0 for secure authentication.\n- Automated pipelines for ecological forecasting workflows via FLARE integration.\n- Enhanced scalability, portability, and automation across distributed environments.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/FaaSr/FaaSr-Backend"
+          }
+        ],
+        "tags": [
+          "Serverless Architecture",
+          "Cloud Orchestration",
+          "Docker",
+          "JWT",
+          "OAuth 2.0",
+          "Multi-Cloud",
+          "SLURM",
+          "GitHub Actions",
+          "OpenWhisk",
+          "Forecasting Automation"
+        ],
+        "category": "Research"
+      },
+      {
+        "image": "images/projects/bugsleuth-poster.png",
+        "title": "BugSleuth: Unsupervised Bug Localization",
+        "bodyText": "- Developed an unsupervised bug localization technique using genetic programming.\n- Achieved millisecond runtime with 56% of bugs localized across 704 real-world Java projects in top-5 ranked statements.\n- Surpassed state-of-the-art methods; submitted to ICSE'25.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth"
+          }
+        ],
+        "tags": [
+          "Genetic Programming",
+          "Unsupervised Learning",
+          "Real-Time Analysis",
+          "Bug Localization",
+          "Debugging Technique"
+        ],
+        "category": "Research"
+      },
+      {
+        "image": "images/projects/vivamind.png",
+        "title": "VivaMind – Mental Health & Wellness Tracker",
+        "bodyText": "- Co-founded and developed a mental health tracking platform on the MERN stack.\n- Scaled to 5k+ active users with 20% improved retention.\n- AI-driven sentiment analysis boosted engagement by 25% and achieved 75% user satisfaction.\n- Architected secure MongoDB model supporting 1M+ data points and enabled B2B therapist integrations.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "" 
+          }
+        ],
+        "tags": [
+          "React",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Sentiment Analysis",
+          "Full Stack Development",
+          "Data Modeling",
+          "Startup Leadership"
+        ],
+        "category": "Startup"
+      },
+      {
+        "image": "images/projects/college.jpeg",
+        "title": "College Recommendation System",
+        "bodyText": "- Built a mobile app in Flutter for recommending colleges based on user profile.\n- Implemented Python-based web scraping with BeautifulSoup.\n- Developed Random Forest-based recommendation algorithm with 97.89% accuracy.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": ""
+          }
+        ],
+        "tags": [
+          "Flutter",
+          "Web Scraping",
+          "BeautifulSoup",
+          "Machine Learning",
+          "Python",
+          "Recommendation Systems"
+        ],
+        "category": "Research"
+      },
+      {
+        "image": "images/projects/isro.jpeg",
+        "title": "Automated Wetland Delineation (ISRO)",
+        "bodyText": "- Directed deep learning project at ISRO for mapping wetlands using hyperspectral LISS-III imagery.\n- Designed an atrous CNN that outperformed U-Net, reducing parameters by 100×.\n- Achieved Dice coefficients of 0.68 (train) and 0.65 (validation).\n- Reduced manual delineation effort by 80%, used as a QC tool at ISRO.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": ""
+          }
+        ],
+        "tags": [
+          "Deep Learning",
+          "Hyperspectral Image Analysis",
+          "Python",
+          "Data Science",
+          "Atrous CNN",
+          "U-Net"
+        ],
+        "category": "Research"
+      },
+      
+      {
+        "image": "images/projects/SAP-Logo.png",
+        "title": "SAP Material Management Workflow Optimization",
+        "bodyText": "- Redesigned SAP Material Management workflows using parallel processing and milestone tracking.\n- Identified process bottlenecks and KPIs, achieving a 70% improvement in material creation efficiency.\n- Demonstrated expertise in enterprise workflow automation and KPI-driven performance improvements.",
+        "links": [
+          {
+            "text": "Colgate (Enterprise Project)",
+            "href": ""
+          }
+        ],
+        "tags": [
+          "SAP",
+          "Workflow Automation",
+          "Parallel Processing",
+          "Enterprise IT",
+          "Process Optimization",
+          "KPIs"
+        ],
+        "category": "Enterprise"
+      },
+      {
+        "image": "images/projects/SAP-Logo.png",
+        "title": "Finance Master Data Automation",
+        "bodyText": "- Automated finance master data load process by replacing legacy file transfers with a secure Webdynpro application.\n- Reduced data load time from 8 hours to a few minutes.\n- Leveraged SAP HANA and OData services to deliver real-time data flows with enterprise-grade security.",
+        "links": [
+          {
+            "text": "Colgate (Enterprise Project)",
+            "href": ""
+          }
+        ],
+        "tags": [
+          "SAP HANA",
+          "Webdynpro",
+          "OData",
+          "REST APIs",
+          "Enterprise IT",
+          "Automation",
+          "Data Engineering"
+        ],
+        "category": "Enterprise"
+      }
     ]
-}
+  }
+  
