@@ -10,6 +10,10 @@
         },
         {
             "network" : "email",
+            "href": "mailto:ramrakhiyaniashish@gmail.com"
+        },
+        {
+            "network" : "email",
             "href": "mailto:ramrakha@oregonstate.edu"
         }
     ]
