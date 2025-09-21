@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate software engineer and Graduate student at Oregon State University with over four years of industry experience. I specialize in designing scalable, high-performance systems and have expertise in full stack development, serverless computing, machine learning, and data-driven decision-making.",
   resumeLink:
-    "https://drive.google.com/file/d/13NlZfvBvlOV6FLcwDu9TLS-EEEhdfUiY/view?usp=sharing",
+    "https://drive.google.com/file/d/19sEHPtuiy7D918DtrTGc2wRqgaz2_Qrd/view?usp=drive_link",
   portfolio_repository: "https://github.com/Ashish-Ramrakhiani",
   githubProfile: "https://github.com/Ashish-Ramrakhiani",
 };
