@@ -399,6 +399,17 @@ const experience = {
           color: "#2196F3",
         },
         {
+          title: "Enterprise Train Ticket Booking System",
+          company: "Personal Project",
+          company_url: "https://github.com/Ashish-Ramrakhiani/TicketBookingSystem",
+          logo_path: "train_booking_logo.png",
+          duration: "2024",
+          location: "Remote",
+          description:
+            "Architected and developed a comprehensive console-based train booking system demonstrating enterprise-grade software engineering practices. Implemented secure user authentication with BCrypt password hashing and salt generation, designed clean architecture with service layer patterns, and built intelligent train search algorithms with route validation. Engineered real-time seat management with atomic transactions, integrated Jackson for efficient JSON data persistence, and utilized modern Java features including Stream API, Optional, and lambda expressions. Showcased professional development practices with Gradle build automation, comprehensive error handling, input validation, and modular design patterns suitable for scaling to REST API and microservices architecture.",
+          color: "#2E7D32",
+        },
+        {
           title: "College Recommendation System",
           company: "Academic Project",
           company_url: "",
