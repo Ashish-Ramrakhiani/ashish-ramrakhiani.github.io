@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf5cf8eef791f2a9951b205156532e50",
+    "revision": "00c6998d057ac40c8dee908d291d0175",
     "url": "/index.html"
   },
   {
-    "revision": "82e360c6a0708361683c",
+    "revision": "486ecc0325fb22cdb67d",
     "url": "/static/css/main.9c27953e.chunk.css"
   },
   {
-    "revision": "18d5717a89141980406a",
-    "url": "/static/js/2.eae81b7b.chunk.js"
+    "revision": "50ce5f3f14fb39ea2615",
+    "url": "/static/js/2.edd15fa0.chunk.js"
   },
   {
-    "revision": "82e360c6a0708361683c",
-    "url": "/static/js/main.9d7d550f.chunk.js"
+    "revision": "486ecc0325fb22cdb67d",
+    "url": "/static/js/main.c14badb8.chunk.js"
   },
   {
     "revision": "1d8f1f3215e5900a254d",
@@ -286,6 +286,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0993e3246bf5146154391a0afef79b03",
     "url": "/static/media/tiktok_logo.0993e324.png"
+  },
+  {
+    "revision": "97b22dabb3ecc585ce8a5370d0f9ac12",
+    "url": "/static/media/train_booking_logo.97b22dab.png"
   },
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
