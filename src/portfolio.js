@@ -389,7 +389,7 @@ const experience = {
         },
         
         {
-          title: "Enterprise-Grade Multi-threaded HTTP Server",
+          title: "Multi-threaded HTTP Server",
           company: "Personal Project",
           company_url: "https://github.com/Ashish-Ramrakhiani/HttpServer",
           logo_path: "http_server_logo.png",
