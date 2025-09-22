@@ -165,48 +165,6 @@ const skills = {
       ],
     },
     {
-      title: "Data & Machine Learning",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Advanced machine learning with Scikit-learn, TensorFlow for deep learning and genetic programming applications",
-        "⚡ Specialized in sentiment analysis, unsupervised learning techniques, and real-time data analysis",
-        "⚡ Database management with MongoDB, MySQL, Oracle, Snowflake, and modern data tools like DBT",
-        "⚡ Data pipeline orchestration with Apache Airflow and visualization with Tableau and Sigma",
-      ],
-      softwareSkills: [
-        {
-          skillName: "TensorFlow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: { backgroundColor: "transparent" },
-        },
-        {
-          skillName: "Scikit Learn",
-          fontAwesomeClassname: "simple-icons:scikitlearn",
-          style: { color: "#F7931E" },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: { color: "#47A248" },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: { color: "#4479A1" },
-        },
-        {
-          skillName: "Apache Airflow",
-          fontAwesomeClassname: "simple-icons:apacheairflow",
-          style: { color: "#017CEE" },
-        },
-        {
-          skillName: "Tableau",
-          fontAwesomeClassname: "simple-icons:tableau",
-          style: { color: "#E97627" },
-        },
-      ],
-    },
-    {
       title: "Cloud & Enterprise Systems",
       fileName: "DesignImg",
       skills: [
@@ -248,6 +206,48 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Data & Machine Learning",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Advanced machine learning with Scikit-learn, TensorFlow for deep learning and genetic programming applications",
+        "⚡ Specialized in sentiment analysis, unsupervised learning techniques, and real-time data analysis",
+        "⚡ Database management with MongoDB, MySQL, Oracle, Snowflake, and modern data tools like DBT",
+        "⚡ Data pipeline orchestration with Apache Airflow and visualization with Tableau and Sigma",
+      ],
+      softwareSkills: [
+        {
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: { backgroundColor: "transparent" },
+        },
+        {
+          skillName: "Scikit Learn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
+          style: { color: "#F7931E" },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: { color: "#47A248" },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: { color: "#4479A1" },
+        },
+        {
+          skillName: "Apache Airflow",
+          fontAwesomeClassname: "simple-icons:apacheairflow",
+          style: { color: "#017CEE" },
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "simple-icons:tableau",
+          style: { color: "#E97627" },
+        },
+      ],
+    }
   ],
 };
 
@@ -387,16 +387,17 @@ const experience = {
             "Developed an unsupervised bug localization technique using genetic programming, achieving real-time debugging with millisecond runtime and localizing 56% of bugs from 704 real-world projects in the top-5 ranked suspicious statements, surpassing state-of-the-art methods. This research contributes to advancing automated debugging techniques in software engineering.",
           color: "#FF5722",
         },
+        
         {
-          title: "AI-Powered Stock Tracking & Alert System",
+          title: "Enterprise-Grade Multi-threaded HTTP Server",
           company: "Personal Project",
-          company_url: "https://www.github.com/Ashish-Ramrakhiani/stock-tracker-agent",
-          logo_path: "stock_tracker_logo.jpg",
-          duration: "2025",
+          company_url: "https://github.com/Ashish-Ramrakhiani/HttpServer",
+          logo_path: "http_server_logo.png",
+          duration: "2024",
           location: "Remote",
           description:
-            "Architected and deployed a comprehensive real-time stock monitoring system integrating AI-driven market analysis with automated SMS notifications. Built multi-agent architecture using OpenAI's Agents SDK for natural language command processing, intelligent news research, and contextual alert generation. Implemented 24/7 background scheduling for hourly price monitoring across global exchanges, REST webhook endpoints for Twilio SMS integration, and persistent JSON-based data management. Achieved seamless user interaction through conversational SMS commands and deployed scalable cloud infrastructure supporting continuous operation.",
-          color: "#2196F3",
+            "Architected and implemented a production-ready HTTP/1.1 server from scratch using Java, showcasing advanced concurrent programming and network engineering expertise. Engineered thread pool-based architecture with configurable pool size, achieving optimal resource utilization and handling multiple simultaneous connections efficiently. Built comprehensive RESTful API endpoints with real-time server monitoring, statistics tracking, and health checks using JSON responses with proper HTTP status codes. Implemented robust security measures including directory traversal attack prevention, input sanitization, and comprehensive error handling with custom 404/501 pages. Developed modern responsive web interface with real-time updates, interactive load testing capabilities, and dynamic content manipulation using vanilla JavaScript. Demonstrated enterprise-grade practices with proper resource management, atomic request counting, memory usage monitoring, and CORS support for cross-origin requests.",
+          color: "#2E7D32",
         },
         {
           title: "Enterprise Train Ticket Booking System",
@@ -410,17 +411,6 @@ const experience = {
           color: "#2E7D32",
         },
         {
-          title: "College Recommendation System",
-          company: "Academic Project",
-          company_url: "",
-          logo_path: "college_rec_logo.png",
-          duration: "2018 - 2019",
-          location: "Mumbai, India",
-          description:
-            "Developed a mobile app with Flutter for recommending engineering colleges based on user profiles. Implemented a Python-based web scraper using BeautifulSoup and a recommendation algorithm with Random Forest, achieving 97.89% recommendation accuracy. The system provides personalized college suggestions to help students make informed decisions about their higher education.",
-          color: "#9C27B0",
-        },
-        {
           title: "VivaMind: Mental Health & Wellness Tracker",
           company: "Startup Project",
           company_url: "",
@@ -431,6 +421,29 @@ const experience = {
             "Engineered a full-stack wellness tracking platform on the MERN stack, architected with modular microservices for journaling, sentiment analysis, and analytics. Designed and deployed a pipeline for real-time sentiment analysis of journal entries, integrated with Node.js APIs to personalize insights for users. Built and optimized a secure backend with MongoDB, role-based access, and JWT/OAuth 2.0, ensuring privacy and reliability in handling sensitive personal data. Deployed services using Docker and CI/CD pipelines for scalable cloud delivery.",
           color: "#4CAF50",
         },
+        {
+          title: "AI-Powered Stock Tracking & Alert System",
+          company: "Personal Project",
+          company_url: "https://www.github.com/Ashish-Ramrakhiani/stock-tracker-agent",
+          logo_path: "stock_tracker_logo.jpg",
+          duration: "2025",
+          location: "Remote",
+          description:
+            "Architected and deployed a comprehensive real-time stock monitoring system integrating AI-driven market analysis with automated SMS notifications. Built multi-agent architecture using OpenAI's Agents SDK for natural language command processing, intelligent news research, and contextual alert generation. Implemented 24/7 background scheduling for hourly price monitoring across global exchanges, REST webhook endpoints for Twilio SMS integration, and persistent JSON-based data management. Achieved seamless user interaction through conversational SMS commands and deployed scalable cloud infrastructure supporting continuous operation.",
+          color: "#2196F3",
+        },
+        {
+          title: "College Recommendation System",
+          company: "Academic Project",
+          company_url: "",
+          logo_path: "college_rec_logo.png",
+          duration: "2018 - 2019",
+          location: "Mumbai, India",
+          description:
+            "Developed a mobile app with Flutter for recommending engineering colleges based on user profiles. Implemented a Python-based web scraper using BeautifulSoup and a recommendation algorithm with Random Forest, achieving 97.89% recommendation accuracy. The system provides personalized college suggestions to help students make informed decisions about their higher education.",
+          color: "#9C27B0",
+        },
+        
         {
           title: "Automated Wetland Delineation (ISRO)",
           company: "Indian Space Research Organization",
