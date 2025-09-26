@@ -387,6 +387,17 @@ const experience = {
             "Developed an unsupervised bug localization technique using genetic programming, achieving real-time debugging with millisecond runtime and localizing 56% of bugs from 704 real-world projects in the top-5 ranked suspicious statements, surpassing state-of-the-art methods. This research contributes to advancing automated debugging techniques in software engineering.",
           color: "#FF5722",
         },
+        {
+          title: "Event-Driven Microservices Platform",
+          company: "Personal Project",
+          company_url: "https://github.com/Ashish-Ramrakhiani/course-platform",
+          logo_path: "event_platform_logo.png",
+          duration: "2025",
+          location: "Remote",
+          description:
+            "Architected and developed a production-grade event-driven microservices system demonstrating real-time data processing and comprehensive monitoring capabilities. Engineered Spring Boot producer-consumer microservices with RESTful APIs handling course purchase and enrollment events, implementing proper CORS configuration and JSON event serialization. Designed Apache Kafka event streaming architecture with 3-partition topic configuration, processing asynchronous events through consumer groups and generating custom Micrometer counters for business metrics. Integrated Prometheus metrics collection and Grafana visualization for real-time dashboards displaying event processing rates, system performance, and business intelligence analytics. Built React-based event generation interface as a testing tool for demonstrating system capabilities and triggering various event types. Implemented Docker Compose orchestration for seamless deployment of Kafka ecosystem, monitoring stack, and microservices, showcasing enterprise-ready distributed system design with comprehensive observability and scalable event processing architecture.",
+          color: "#6DB33F",
+        },
         
         {
           title: "Multi-threaded HTTP Server",
@@ -398,6 +409,17 @@ const experience = {
           description:
             "Architected and implemented a production-ready HTTP/1.1 server from scratch using Java, showcasing advanced concurrent programming and network engineering expertise. Engineered thread pool-based architecture with configurable pool size, achieving optimal resource utilization and handling multiple simultaneous connections efficiently. Built comprehensive RESTful API endpoints with real-time server monitoring, statistics tracking, and health checks using JSON responses with proper HTTP status codes. Implemented robust security measures including directory traversal attack prevention, input sanitization, and comprehensive error handling with custom 404/501 pages. Developed modern responsive web interface with real-time updates, interactive load testing capabilities, and dynamic content manipulation using vanilla JavaScript. Demonstrated enterprise-grade practices with proper resource management, atomic request counting, memory usage monitoring, and CORS support for cross-origin requests.",
           color: "#2E7D32",
+        },
+        {
+          title: "JWT Authentication Microservice",
+          company: "Personal Project",
+          company_url: "https://github.com/Ashish-Ramrakhiani/authservice",
+          logo_path: "auth_service_logo.png",
+          duration: "2025",
+          location: "Remote",
+          description:
+            "Architected and developed a production-ready JWT authentication microservice using Spring Boot with comprehensive user management and token lifecycle capabilities. Implemented stateless authentication architecture featuring short-lived access tokens with secure refresh token rotation stored in MySQL database. Engineered role-based access control (RBAC) with many-to-many user-role relationships, custom JWT filter chain integration, and BCrypt password hashing for enterprise-grade security. Built RESTful API endpoints for user registration, authentication, and token refresh with proper HTTP status codes and comprehensive error handling. Demonstrated advanced Spring Security configuration with custom authentication providers, stateless session management, and CORS/CSRF security policies, showcasing microservices architecture patterns suitable for distributed systems.",
+          color: "#6DB33F",
         },
         {
           title: "Enterprise Train Ticket Booking System",
