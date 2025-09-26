@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "360896de70fe83eb020f41a627b28fec",
+    "revision": "12f392b799e7f087f1d44abbf3d8b288",
     "url": "/index.html"
   },
   {
-    "revision": "2196eee3c09ed79f3c9f",
+    "revision": "165b8b5dbfd874ed6123",
     "url": "/static/css/main.9c27953e.chunk.css"
   },
   {
-    "revision": "0c7ee012549129b72023",
-    "url": "/static/js/2.06ff775a.chunk.js"
+    "revision": "bc7d48ac4383b9e22e05",
+    "url": "/static/js/2.4bc4e01e.chunk.js"
   },
   {
-    "revision": "2196eee3c09ed79f3c9f",
-    "url": "/static/js/main.f171a629.chunk.js"
+    "revision": "165b8b5dbfd874ed6123",
+    "url": "/static/js/main.4313cf9e.chunk.js"
   },
   {
     "revision": "1d8f1f3215e5900a254d",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/animated_logo.dcd6dee2.svg"
   },
   {
+    "revision": "d8970f9f6a20070b511fc2f584252a8e",
+    "url": "/static/media/auth_service_logo.d8970f9f.png"
+  },
+  {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
     "url": "/static/media/blogs_image.058eca4c.svg"
   },
@@ -118,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
     "url": "/static/media/education.3bab7a9d.svg"
+  },
+  {
+    "revision": "e9c1800bac0eac1d02de18b242f22acd",
+    "url": "/static/media/event_platform_logo.e9c1800b.png"
   },
   {
     "revision": "a00ede3f70759480e81f14f203edaa51",

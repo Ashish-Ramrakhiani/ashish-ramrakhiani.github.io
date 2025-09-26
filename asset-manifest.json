@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9c27953e.chunk.css",
-    "main.js": "/static/js/main.f171a629.chunk.js",
-    "main.js.map": "/static/js/main.f171a629.chunk.js.map",
+    "main.js": "/static/js/main.4313cf9e.chunk.js",
+    "main.js.map": "/static/js/main.4313cf9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4313753b.js",
     "runtime-main.js.map": "/static/js/runtime-main.4313753b.js.map",
-    "static/js/2.06ff775a.chunk.js": "/static/js/2.06ff775a.chunk.js",
-    "static/js/2.06ff775a.chunk.js.map": "/static/js/2.06ff775a.chunk.js.map",
+    "static/js/2.4bc4e01e.chunk.js": "/static/js/2.4bc4e01e.chunk.js",
+    "static/js/2.4bc4e01e.chunk.js.map": "/static/js/2.4bc4e01e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.de26f5b146022ae1391bd00c5114d9b4.js": "/precache-manifest.de26f5b146022ae1391bd00c5114d9b4.js",
+    "precache-manifest.79da24cc7c8404a80e5e6ab7373c5c79.js": "/precache-manifest.79da24cc7c8404a80e5e6ab7373c5c79.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9c27953e.chunk.css.map": "/static/css/main.9c27953e.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
@@ -17,6 +17,7 @@
     "static/media/animated_ashish2.png": "/static/media/animated_ashish2.7bbf3b72.png",
     "static/media/animated_ashutosh.png": "/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/static/media/animated_logo.dcd6dee2.svg",
+    "static/media/auth_service_logo.png": "/static/media/auth_service_logo.d8970f9f.png",
     "static/media/blogs_image.svg": "/static/media/blogs_image.058eca4c.svg",
     "static/media/bugsleuth_logo.png": "/static/media/bugsleuth_logo.040f5243.png",
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.cacbc42b.svg",
@@ -29,6 +30,7 @@
     "static/media/developerActivity.svg": "/static/media/developerActivity.3e23ca14.svg",
     "static/media/dsc_logo.png": "/static/media/dsc_logo.63f707f2.png",
     "static/media/education.svg": "/static/media/education.3bab7a9d.svg",
+    "static/media/event_platform_logo.png": "/static/media/event_platform_logo.e9c1800b.png",
     "static/media/experience.svg": "/static/media/experience.a00ede3f.svg",
     "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/feelingProud.svg": "/static/media/feelingProud.2936ce95.svg",
@@ -63,8 +65,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4313753b.js",
-    "static/js/2.06ff775a.chunk.js",
+    "static/js/2.4bc4e01e.chunk.js",
     "static/css/main.9c27953e.chunk.css",
-    "static/js/main.f171a629.chunk.js"
+    "static/js/main.4313cf9e.chunk.js"
   ]
 }
