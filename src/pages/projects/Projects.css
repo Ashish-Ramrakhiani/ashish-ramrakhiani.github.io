@@ -55,6 +55,29 @@
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
+.selected-projects-section {
+  margin: 20px 50px 40px 50px;
+}
+
+.opensource-section {
+  margin: 0px 50px 40px 50px;
+}
+
+.selected-projects-title {
+  font-family: "Google Sans Medium";
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #d9dbdf;
+  text-align: left;
+}
+
+.selected-projects-cards {
+  display: flex;
+  flex-direction: column;
+}
+
 .publications-heading-text-div {
   text-align: center;
   font-family: "Google Sans Regular";

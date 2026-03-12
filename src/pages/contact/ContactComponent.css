@@ -36,6 +36,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 200px;
+}
+
+.contact-heading-img-div img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
 }
 
 .blog-heading-img-div {

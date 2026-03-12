@@ -1,113 +1,94 @@
 import React, { Component } from "react";
 import "./ExperienceCard.css";
-import { Fade } from "react-reveal";
+import { Fade, Flip } from "react-reveal";
+
+const badgeColors = {
+  Industry: "#0077B5",
+  Research: "#7B42BC",
+  Entrepreneurship: "#E67E22",
+};
 
 class ExperienceCard extends Component {
   render() {
     const experience = this.props.experience;
-    const index = this.props.index;
-    const totalCards = this.props.totalCards;
     const theme = this.props.theme;
     return (
-      <div
-        className="experience-list-item"
-        style={{ marginTop: index === 0 ? 30 : 50 }}
-      >
-        <Fade left duration={2000} distance="40px">
-          <div className="experience-card-logo-div">
-            <img
-              className="experience-card-logo"
-              src={require(`../../assets/images/${experience["logo_path"]}`)}
-              alt=""
-            />
-          </div>
-        </Fade>
-        <div className="experience-card-stepper">
-          <div
-            style={{
-              width: 20,
-              height: 20,
-              backgroundColor: `${theme.headerColor}`,
-              borderRadius: 50,
-              zIndex: 100,
-            }}
-          />
-          {index !== totalCards - 1 && (
-            <div
-              style={{
-                height: 190,
-                width: 2,
-                backgroundColor: `${theme.headerColor}`,
-                position: "absolute",
-                marginTop: 20,
-              }}
-            />
-          )}
-        </div>
-        <Fade right duration={2000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div
-              className="arrow-left"
-              style={{ borderRight: `10px solid ${theme.body}` }}
-            ></div>
-            <div
-              className="experience-card"
-              style={{ background: `${theme.body}` }}
-            >
-              <div
+      <div className="exp-card-outer">
+        {experience.logo_path && (
+          <Flip left duration={2000}>
+            <div className="exp-card-img">
+              <img
                 style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "space-between",
+                  maxWidth: "100%",
+                  maxHeight: "100%",
+                  transform: "scale(0.9)",
                 }}
-              >
-                <div>
-                  <h3
-                    className="experience-card-title"
-                    style={{ color: theme.text }}
-                  >
-                    {experience["title"]}
-                  </h3>
-                  <p
-                    className="experience-card-company"
-                    style={{ color: theme.text }}
-                  >
+                src={require(`../../assets/images/${experience["logo_path"]}`)}
+                alt={experience["company"]}
+              />
+            </div>
+          </Flip>
+        )}
+        <Fade right duration={2000} distance="40px">
+          <div
+            className="exp-card-body"
+            style={{
+              width: experience.logo_path ? "90%" : "100%",
+              borderLeft: `4px solid ${experience.color || theme.headerColor}`,
+            }}
+          >
+            <div
+              className="exp-body-header"
+              style={{ backgroundColor: theme.headerColor }}
+            >
+              <div className="exp-body-header-title">
+                <h2 className="exp-card-title" style={{ color: theme.text }}>
+                  {experience["title"]}
+                </h2>
+                <h3 className="exp-card-company" style={{ color: theme.text }}>
+                  {experience["company_url"] ? (
                     <a
                       href={experience["company_url"]}
                       target="_blank"
                       rel="noopener noreferrer"
+                      style={{ color: theme.text, textDecoration: "none" }}
                     >
                       {experience["company"]}
                     </a>
-                  </p>
-                </div>
-                <div>
-                  <div className="experience-card-heading-right">
-                    <p
-                      className="experience-card-duration"
-                      style={{ color: theme.secondaryText }}
-                    >
-                      {experience["duration"]}
-                    </p>
-                    <p
-                      className="experience-card-location"
-                      style={{ color: theme.secondaryText }}
-                    >
-                      {experience["location"]}
-                    </p>
+                  ) : (
+                    experience["company"]
+                  )}
+                </h3>
+              </div>
+              <div className="exp-body-header-duration">
+                <h3 className="exp-duration" style={{ color: theme.text }}>
+                  {experience["duration"]}
+                </h3>
+                <p className="exp-location" style={{ color: theme.text }}>
+                  {experience["location"]}
+                </p>
+                {experience["badge"] && (
+                  <div className="exp-badge-row">
+                    {(Array.isArray(experience["badge"])
+                      ? experience["badge"]
+                      : [experience["badge"]]
+                    ).map((b) => (
+                      <span
+                        key={b}
+                        className="exp-badge"
+                        style={{ backgroundColor: badgeColors[b] || experience["color"] }}
+                      >
+                        {b}
+                      </span>
+                    ))}
                   </div>
-                </div>
+                )}
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                  marginTop: 20,
-                }}
-              >
-                <div className="repo-description" />
+            </div>
+            <div className="exp-body-content">
+              <p className="exp-description" style={{ color: theme.text }}>
                 {experience["description"]}
-              </div>
+              </p>
             </div>
           </div>
         </Fade>
