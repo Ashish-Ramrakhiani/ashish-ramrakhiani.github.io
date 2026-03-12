@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Ashish Ramrakhiani's Portfolio",
   description:
-    "A passionate software engineer and Graduate student at Oregon State University with expertise in full stack development, machine learning, and scalable system design.",
+    "Software engineer with 4+ years in production systems and a research track record. Former Technical Lead at Colgate (Fortune 500). Published in serverless orchestration (CCGrid'26) and automated debugging (ICSE'25). M.S. Computer Science at Oregon State.",
   og: {
     title: "Ashish Ramrakhiani Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "AshishRamrakhiani",
   nickname: "ashish-ramrakhiani",
   subTitle:
-    "A passionate software engineer and Graduate student at Oregon State University with over four years of industry experience. I specialize in designing scalable, high-performance systems and have expertise in full stack development, serverless computing, machine learning, and data-driven decision-making.",
+    "I've spent 4+ years at the intersection of industry and research — leading backend teams at Colgate, co-founding a startup, and publishing in top software engineering venues. Whether I'm designing distributed systems for 200+ markets or localizing real-world bugs with zero training data, I care about building things that are both rigorous and useful. Currently wrapping up my M.S. at Oregon State (GPA 3.96), and actively looking for engineering roles where depth matters.",
   resumeLink:
     "https://drive.google.com/file/d/19sEHPtuiy7D918DtrTGc2wRqgaz2_Qrd/view?usp=drive_link",
   portfolio_repository: "https://github.com/Ashish-Ramrakhiani",
@@ -69,10 +69,10 @@ const skills = {
       title: "Languages & Frameworks",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Proficient in multiple programming languages including Java, Python, JavaScript, TypeScript, SAP ABAP, C++, C#, and R",
-        "⚡ Experience with modern frameworks like React, Redux, Node.js, Express.js, Spring Boot, Next.js, and Bootstrap",
+        "⚡ Proficient in multiple programming languages including Java, Python, JavaScript, TypeScript, SAP ABAP, C++, C#, R, and Julia",
+        "⚡ Experience with modern frameworks like React, Redux, Node.js, Express.js, Spring Boot, FastAPI, Next.js, and Bootstrap",
         "⚡ Mobile development with Flutter and Android, plus web technologies like HTML, CSS, and PHP",
-        "⚡ Database expertise with SQL and specialized in enterprise applications with SAP ABAP",
+        "⚡ Database expertise with SQL and specialized in enterprise applications with SAP ABAP and Hibernate/JPA",
       ],
       softwareSkills: [
         {
@@ -89,6 +89,11 @@ const skills = {
           skillName: "R",
           fontAwesomeClassname: "simple-icons:r",
           style: { color: "#3776AB" },
+        },
+        {
+          skillName: "Julia",
+          fontAwesomeClassname: "simple-icons:julia",
+          style: { color: "#9558B2" },
         },
         {
           skillName: "JavaScript",
@@ -116,6 +121,11 @@ const skills = {
           style: { color: "#6DB33F" },
         },
         {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: { color: "#009688" },
+        },
+        {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
           style: { color: "#02569B" },
@@ -127,7 +137,7 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Building robust REST APIs and GraphQL services with comprehensive authentication using Spring Framework and Spring Boot",
-        "⚡ Experience with Hibernate, JPA for enterprise-grade backend development and WebSocket implementation",
+        "⚡ Event-driven architecture with Redis caching, Kafka-based invalidation, and RabbitMQ message routing for high-throughput systems",
         "⚡ CI/CD pipeline setup with Git, GitHub Actions, Jenkins, Vercel, and Docker containerization",
         "⚡ OAuth 2.0 and JWT authentication systems for secure microservices architecture",
       ],
@@ -136,6 +146,21 @@ const skills = {
           skillName: "Spring Boot",
           fontAwesomeClassname: "simple-icons:springboot",
           style: { color: "#6DB33F" },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: { color: "#DC382D" },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "simple-icons:apachekafka",
+          style: { color: "#231F20" },
+        },
+        {
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "simple-icons:rabbitmq",
+          style: { color: "#FF6600" },
         },
         {
           skillName: "Docker",
@@ -168,10 +193,10 @@ const skills = {
       title: "Cloud & Enterprise Systems",
       fileName: "DesignImg",
       skills: [
-        "⚡ Multi-cloud expertise with AWS (S3, Lambda, EC2, RDS), GCP, Azure for scalable deployments",
-        "⚡ Serverless computing with OpenWhisk, SLURM, MinIO, and container orchestration platforms",
+        "⚡ Multi-cloud expertise with AWS (S3, Lambda, EC2, RDS), GCP (Cloud Run, BigQuery), and Azure for scalable deployments",
+        "⚡ Serverless computing with OpenWhisk, SLURM, MinIO, and container orchestration with Kubernetes and Terraform",
+        "⚡ Data warehousing and pipeline orchestration with Snowflake, DBT, and Apache Airflow for enterprise-scale analytics",
         "⚡ SAP enterprise systems including MDG, HANA, Fiori/UI5, Webdynpro, OData, CDS Views, and BRF+",
-        "⚡ Agile/Scrum methodologies, Unit Testing (JUnit, Mockito), System Design, and OWASP security principles",
       ],
       softwareSkills: [
         {
@@ -188,6 +213,21 @@ const skills = {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: { color: "#0089D6" },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "simple-icons:terraform",
+          style: { color: "#7B42BC" },
+        },
+        {
+          skillName: "Snowflake",
+          fontAwesomeClassname: "simple-icons:snowflake",
+          style: { color: "#29B5E8" },
+        },
+        {
+          skillName: "DBT",
+          fontAwesomeClassname: "simple-icons:dbt",
+          style: { color: "#FF694A" },
         },
         {
           skillName: "SAP",
@@ -272,12 +312,12 @@ const degrees = {
       subtitle: "M.S. in Computer Science",
       logo_path: "osu_logo.png",
       alt_name: "Oregon State University",
-      duration: "Sept 2023 - Dec 2025 (Expected)",
+      duration: "Sept 2023 - Mar 2026",
       descriptions: [
-        "⚡ Current GPA: 3.96/4.0 - Graduate Research Assistant specializing in Bug Localization and Serverless Frameworks",
-        "⚡ Conducting cutting-edge research in unsupervised fault localization using genetic programming",
-        "⚡ Developing production-grade serverless middleware frameworks for multi-cloud deployment",
-        "⚡ Contributing to academic publications and advancing the field of software engineering",
+        "⚡ GPA: 3.96/4.0 — Graduate Research Assistant across two research labs",
+        "⚡ Developed BugSleuth (ICSE'25): unsupervised genetic algorithm that localizes 56.8% of 704 real-world bugs in top-5 predictions, outperforming supervised deep learning and LLM baselines",
+        "⚡ Architected EphFlow (CCGrid'26): multi-cloud serverless middleware extending AWS Lambda execution limits from 15 min to 90+ minutes via ephemeral EC2 provisioning",
+        "⚡ Built language-agnostic RPC client libraries and a React-based visual DAG composer for serverless pipeline configuration",
       ],
       website_link: "https://oregonstate.edu/",
     },
@@ -316,37 +356,47 @@ const experience = {
       work: true,
       experiences: [
         {
-          
-          title: "Graduate Research Assistant",
-          company: "Oregon State University",
-          company_url: "https://oregonstate.edu/",
-          logo_path: "osu_logo.png",
-          duration: "Sept 2023 - Present",
+          title: "R&D Software Engineer — Serverless Systems",
+          company: "HipCastor Labs (faasr.io)",
+          company_url: "https://faasr.io",
+          logo_path: "faasr_logo.png",
+          duration: "Sept 2024 - Present",
           location: "Corvallis, OR, USA",
           description:
-            "Conducting research in Bug Localization and Serverless Frameworks. Developed BugSleuth - an unsupervised bug localization technique using genetic programming with real-time debugging capabilities. Architected FaaSr - a production-grade serverless middleware framework for multi-cloud deployment. Research has resulted in publications and practical applications in industry.",
-          color: "#DC6900",
-      },
+            "Architected EphFlow (CCGrid'26), a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning; implemented the 3,600-line Python/FastAPI core from scratch. Built a React-based visual DAG composer enabling researchers to configure multi-cloud serverless pipelines, and engineered language-agnostic RPC client libraries (Python, R, Julia) with S3-based coordination validated across 1,051 invocations on AWS Lambda, GCP Cloud Run, GitHub Actions, OpenWhisk, and SLURM.",
+          color: "#4285F4",
+        },
         {
-          title: "Sr. Technology Associate",
+          title: "R&D Software Engineer — Automated Fault Localization",
+          company: "ANSWER Labs, Oregon State University",
+          company_url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth",
+          logo_path: "osu_logo.png",
+          duration: "Sept 2023 - Aug 2024",
+          location: "Corvallis, OR, USA",
+          description:
+            "Developed BugSleuth (ICSE'25), an unsupervised genetic algorithm for automated fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on the Defects4J benchmark with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Optimized rank aggregation by framing fault localization as an optimization problem using custom Spearman Footrule fitness, achieving a 3.3s average runtime per bug.",
+          color: "#DC6900",
+        },
+        {
+          title: "Technical Lead & Senior Software Engineer",
           company: "Colgate Global Business Services",
           company_url: "https://www.colgatepalmolive.com/",
           logo_path: "colgate_logo.png",
           duration: "Aug 2019 - Aug 2023",
           location: "Mumbai, India",
           description:
-            "Led Master Data Management and IT Analytics initiatives. Redesigned SAP material management workflows achieving 70% efficiency improvement. Deployed robust REST web services with 91.67% response time reduction. Automated Finance Master Data processes reducing load time from 8 hours to minutes. Transformed operational reporting into real-time dashboards eliminating 32 business hours of manual work monthly.",
+            "Promoted to Technical Lead to direct 6 engineers; authored and defended system design documents for global deployments passing rigorous Enterprise Architecture Board reviews. Reduced API response time from 12s to under 1s (92%) for a 15-country platform by architecting a Redis caching tier with Kafka-based invalidation. Orchestrated org-wide migration from SAP to Snowflake, DBT, and Airflow, reducing data freshness lag from 24 hours to 15-minute intervals. Redesigned a synchronous supply-chain backend into an event-driven architecture using RabbitMQ, routing 500+ weekly product launches across parallel enterprise services. Automated manual ETL into async services, reducing end-to-end processing from 8 hours to 15 minutes (97% reduction) and saving $50K+ annually.",
           color: "#FF0000",
         },
         {
-          title: "Co-founder & Full-Stack Developer",
-          company: "Viva Mind – Mental Health & Wellness Tracker",
+          title: "Co-Founder & Lead Developer",
+          company: "Viva Mind",
           company_url: "",
           logo_path: "vivamind_logo.png",
           duration: "May 2020 - Aug 2022",
           location: "Remote",
           description:
-            "Engineered a full-stack wellness tracking platform on MERN stack with modular microservices. Designed real-time sentiment analysis pipeline for journal entries. Built secure backend with MongoDB, role-based access, and JWT/OAuth 2.0. Deployed using Docker and CI/CD pipelines for scalable cloud delivery with rapid iteration capabilities.",
+            "Co-founded a privacy-first mental health journaling platform processing 50,000+ journal entries across an 18-month production lifecycle. Engineered a Node.js/Express backend with AES-256 field-level encryption and JWT/OAuth 2.0 RBAC. Decoupled Hugging Face sentiment analysis into a Redis-backed async job queue with retry logic and exponential backoff, reducing user-facing response time from ~850ms to ~95ms. Built a React/Redux frontend with real-time mood dashboards; deployed full stack on AWS (EC2, S3) via Docker and GitHub Actions CI/CD with rolling deployments and zero downtime.",
           color: "#4CAF50",
         },
         {
@@ -399,6 +449,17 @@ const experience = {
           color: "#6DB33F",
         },
         
+        {
+          title: "AirBnB Backend API",
+          company: "Personal Project",
+          company_url: "https://github.com/Ashish-Ramrakhiani/AirBnB-Backend-API",
+          logo_path: "airbnb_logo.png",
+          duration: "2025",
+          location: "Remote",
+          description:
+            "Built a production-grade hotel booking backend with Spring Boot covering the full guest lifecycle — hotel browsing, room availability, booking initialization, Stripe payment processing, and cancellation workflows. Implemented JWT-based authentication with token refresh, role-based access control for admin inventory management (rooms, hotels, guests), and Stripe webhook handling for payment capture. Organized across 7 API domains with 30+ endpoints, containerized with Docker, and backed by PostgreSQL with a normalized relational schema.",
+          color: "#FF5A5F",
+        },
         {
           title: "Multi-threaded HTTP Server",
           company: "Personal Project",
@@ -505,14 +566,14 @@ const experience = {
       title: "Entrepreneurship",
       experiences: [
         {
-          title: "Co-founder & Full-Stack Developer",
-          company: "Viva Mind – Mental Health & Wellness Tracker",
+          title: "Co-Founder & Lead Developer",
+          company: "Viva Mind",
           company_url: "",
           logo_path: "vivamind_logo.png",
           duration: "May 2020 - Aug 2022",
           location: "Remote",
           description:
-            "Engineered a full-stack wellness tracking platform on MERN stack with modular microservices. Designed real-time sentiment analysis pipeline for journal entries. Built secure backend with MongoDB, role-based access, and JWT/OAuth 2.0. Deployed using Docker and CI/CD pipelines for scalable cloud delivery with rapid iteration capabilities.",
+            "Co-founded a privacy-first mental health journaling platform processing 50,000+ journal entries across an 18-month production lifecycle. Engineered a Node.js/Express backend with AES-256 field-level encryption and JWT/OAuth 2.0 RBAC. Decoupled Hugging Face sentiment analysis into a Redis-backed async job queue with retry logic and exponential backoff, reducing user-facing response time from ~850ms to ~95ms. Built a React/Redux frontend with real-time mood dashboards; deployed full stack on AWS (EC2, S3) via Docker and GitHub Actions CI/CD with rolling deployments and zero downtime.",
           color: "#4CAF50",
         },
       ],
@@ -521,14 +582,25 @@ const experience = {
       title: "Research & Academic",
       experiences: [
         {
-          title: "Graduate Research Assistant",
-          company: "Oregon State University",
-          company_url: "https://oregonstate.edu/",
-          logo_path: "osu_logo.png",
-          duration: "Sept 2023 - Present",
+          title: "R&D Software Engineer — Serverless Systems",
+          company: "HipCastor Labs (faasr.io)",
+          company_url: "https://faasr.io",
+          logo_path: "faasr_logo.png",
+          duration: "Sept 2024 - Present",
           location: "Corvallis, OR, USA",
           description:
-            "Conducting research in Bug Localization and Serverless Frameworks. Developed BugSleuth - an unsupervised bug localization technique using genetic programming with real-time debugging capabilities. Architected FaaSr - a production-grade serverless middleware framework for multi-cloud deployment. Research has resulted in publications and practical applications in industry.",
+            "Architected EphFlow (CCGrid'26), a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning; implemented the 3,600-line Python/FastAPI core from scratch. Built a React-based visual DAG composer enabling researchers to configure multi-cloud serverless pipelines, and engineered language-agnostic RPC client libraries (Python, R, Julia) with S3-based coordination validated across 1,051 invocations on AWS Lambda, GCP Cloud Run, GitHub Actions, OpenWhisk, and SLURM.",
+          color: "#4285F4",
+        },
+        {
+          title: "R&D Software Engineer — Automated Fault Localization",
+          company: "ANSWER Labs, Oregon State University",
+          company_url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth",
+          logo_path: "osu_logo.png",
+          duration: "Sept 2023 - Aug 2024",
+          location: "Corvallis, OR, USA",
+          description:
+            "Developed BugSleuth (ICSE'25), an unsupervised genetic algorithm for automated fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on the Defects4J benchmark with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Optimized rank aggregation by framing fault localization as an optimization problem using custom Spearman Footrule fitness, achieving a 3.3s average runtime per bug.",
           color: "#DC6900",
         },
       ],
@@ -553,17 +625,17 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "faasr-framework-pub",
-      name: "FaaSr: Multi-Cloud Serverless Orchestration Framework",
-      createdAt: "2025-09-01T00:00:00Z",
-      description: "Pending research publication on production-grade serverless middleware framework",
-      url: "https://github.com/FaaSr/",
+      id: "ephflow-ccgrid26-pub",
+      name: "EphFlow: Extending AWS Lambda Execution Limits via Ephemeral VM Provisioning (CCGrid'26)",
+      createdAt: "2026-01-01T00:00:00Z",
+      description: "Architected a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning. Implemented a 3,600-line Python/FastAPI core from scratch and validated the framework across 5 platforms (AWS Lambda, GCP Cloud Run, GitHub Actions, OpenWhisk, SLURM) with 1,051 invocations.",
+      url: "https://faasr.io",
     },
     {
-      id: "bugsleuth-pub",
-      name: "BugSleuth: Unsupervised Bug Localization using Genetic Programming",
-      createdAt: "2024-08-02T00:00:00Z",
-      description: "Pending research publication on innovative fault localization technique",
+      id: "bugsleuth-icse25-pub",
+      name: "BugSleuth: Unsupervised Fault Localization using Genetic Programming (ICSE'25)",
+      createdAt: "2025-01-01T00:00:00Z",
+      description: "Developed an unsupervised genetic algorithm for automated fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on the Defects4J benchmark with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Achieved a 3.3s average runtime per bug using custom Spearman Footrule fitness for rank aggregation.",
       url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth/",
     },
   ],
