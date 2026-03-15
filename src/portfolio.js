@@ -442,6 +442,7 @@ const selectedProjects = {
       logo_path: "faasr_logo.png",
       duration: "Sept 2024 - Present",
       location: "Corvallis, OR",
+      badge: ["Research", "Open Source"],
       description:
         "Architected a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning; implemented the 3,600-line Python/FastAPI core from scratch. Built a React-based visual DAG composer enabling researchers to configure multi-cloud serverless pipelines, and engineered language-agnostic RPC client libraries (Python, R, Julia) with S3-based coordination validated across 1,051 invocations on 5 platforms.",
       color: "#4285F4",
@@ -456,6 +457,7 @@ const selectedProjects = {
       description:
         "Developed an unsupervised genetic algorithm for fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on Defects4J with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Framed rank aggregation as an optimization problem using custom Spearman Footrule fitness, achieving a 3.3s average runtime per bug.",
       color: "#DC6900",
+      badge: ["Research", "Open Source"],
     },
     {
       title: "Viva Mind: Mental Health Journaling Platform",
@@ -464,6 +466,7 @@ const selectedProjects = {
       logo_path: "vivamind_logo.png",
       duration: "May 2020 - Aug 2022",
       location: "Remote",
+      badge: ["Startup"],
       description:
         "Co-founded a privacy-first mental health journaling platform processing 50,000+ journal entries over 18 months. Engineered a Node.js/Express backend with AES-256 field-level encryption and JWT/OAuth 2.0 RBAC. Decoupled Hugging Face sentiment analysis into a Redis-backed async job queue, reducing response time from ~850ms to ~95ms. Deployed on AWS (EC2, S3) with Docker and GitHub Actions CI/CD with zero downtime.",
       color: "#4CAF50",
@@ -475,6 +478,7 @@ const selectedProjects = {
       logo_path: "airbnb_logo.png",
       duration: "2025",
       location: "Remote",
+      badge: ["Personal Project", "Open Source"],
       description:
         "Built a production-grade hotel booking backend with Spring Boot covering the full guest lifecycle — hotel browsing, room availability, booking initialization, Stripe payment processing, and cancellation workflows. Implemented JWT-based auth with token refresh, RBAC for admin inventory management, and Stripe webhook handling across 7 API domains with 30+ endpoints. Containerized with Docker, backed by PostgreSQL.",
       color: "#FF5A5F",
@@ -486,6 +490,7 @@ const selectedProjects = {
       logo_path: "event_platform_logo.png",
       duration: "2025",
       location: "Remote",
+      badge: ["Personal Project", "Open Source"],
       description:
         "Developed async Spring Boot microservices with Kafka consumer groups achieving sub-100ms end-to-end event latency. Integrated Prometheus metrics and Grafana dashboards for real-time observability of event processing rates and system performance. Deployed full stack via Docker Compose.",
       color: "#6DB33F",
@@ -497,6 +502,7 @@ const selectedProjects = {
       logo_path: "http_server_logo.png",
       duration: "2024",
       location: "Remote",
+      badge: ["Personal Project", "Open Source"],
       description:
         "Built a production-ready HTTP/1.1 server from scratch in Java featuring a configurable thread pool and connection pooling to handle concurrent request dispatching. Includes real-time throughput monitoring, directory traversal protection, and a live web dashboard for load testing.",
       color: "#2E7D32",
@@ -508,6 +514,7 @@ const selectedProjects = {
       logo_path: "stock_tracker_logo.jpg",
       duration: "2025",
       location: "Remote",
+      badge: ["Personal Project", "Open Source"],
       description:
         "Architected a real-time stock monitoring system with AI-driven market analysis and automated SMS notifications. Built multi-agent architecture using OpenAI's Agents SDK for natural language command processing and contextual alert generation. Integrated 24/7 background scheduling and Twilio REST webhook endpoints.",
       color: "#2196F3",
@@ -519,6 +526,7 @@ const selectedProjects = {
       logo_path: "auth_service_logo.png",
       duration: "2025",
       location: "Remote",
+      badge: ["Personal Project", "Open Source"],
       description:
         "Production-ready Spring Boot JWT auth microservice with stateless access tokens, secure refresh token rotation stored in MySQL, RBAC with many-to-many user-role relationships, and BCrypt password hashing. Built with Spring Security 6, Java 17, and custom JWT filter chain integration.",
       color: "#6DB33F",
@@ -530,6 +538,7 @@ const selectedProjects = {
       logo_path: "isro_logo.png",
       duration: "June 2019 - July 2019",
       location: "Ahmedabad, India",
+      badge: ["Research"],
       description:
         "Designed a novel atrous CNN for hyperspectral wetland mapping that outperformed U-Net with 100× fewer parameters. Achieved Dice coefficients of 0.68/0.65 (train/val) and reduced manual delineation effort by 80%. Deployed as a quality control tool for ISRO's LISS-III imagery analysis pipeline.",
       color: "#FF6B35",
@@ -541,6 +550,7 @@ const selectedProjects = {
       logo_path: "college_rec_logo.png",
       duration: "2018 - 2019",
       location: "Mumbai, India",
+      badge: ["Academic"],
       description:
         "Developed a Flutter mobile app recommending engineering colleges based on user profiles. Built a Python web scraper using BeautifulSoup and a Random Forest recommendation algorithm achieving 97.89% accuracy.",
       color: "#9C27B0",

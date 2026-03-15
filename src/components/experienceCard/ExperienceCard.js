@@ -6,6 +6,10 @@ const badgeColors = {
   Industry: "#0077B5",
   Research: "#7B42BC",
   Entrepreneurship: "#E67E22",
+  "Personal Project": "#475569",
+  "Open Source": "#16A34A",
+  Startup: "#E67E22",
+  Academic: "#0891B2",
 };
 
 class ExperienceCard extends Component {
