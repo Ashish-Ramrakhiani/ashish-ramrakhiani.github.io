@@ -424,6 +424,18 @@ const experience = {
 const selectedProjects = {
   data: [
     {
+      title: "CareerMind — AI-Powered Job Search Manager",
+      company: "Open Source Project",
+      company_url: "https://github.com/Ashish-Ramrakhiani/CareerMind",
+      logo_path: "careermind_logo.svg",
+      duration: "2025 - Present",
+      location: "Remote",
+      badge: ["Personal Project", "Open Source"],
+      description:
+        "Built a full-stack, self-hosted job search management platform with AI-powered resume review, semantic job matching, and automated job discovery. Architected a multi-provider AI abstraction layer (Ollama, OpenAI, DeepSeek) using the Vercel AI SDK with streaming responses. Engineered a cron-based automation engine that scrapes job boards, deduplicates results, and runs LLM-based match scoring against stored resumes on a configurable schedule. Implemented AES-256 encryption for API key storage, NextAuth credentials auth, and a full resume builder with PDF parsing. Deployed via Docker with multi-stage Alpine builds and SQLite persistence.",
+      color: "#6366F1",
+    },
+    {
       title: "EphFlow: Multi-Cloud Serverless Middleware",
       company: "Research Publication · CCGrid'26",
       company_url: "https://faasr.io",
