@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b67dafda12c5b93fa9acc30a63072ee",
+    "revision": "130b7dcda321a25b020f0d21c2b481ed",
     "url": "/index.html"
   },
   {
-    "revision": "54ab6816e190b9137b10",
+    "revision": "8d56b619742744319c31",
     "url": "/static/css/main.06e6bfee.chunk.css"
   },
   {
-    "revision": "7c5b512a8f3a56144c28",
-    "url": "/static/js/2.fab23855.chunk.js"
+    "revision": "17bb4a866b00ca83e292",
+    "url": "/static/js/2.2c70bf21.chunk.js"
   },
   {
-    "revision": "54ab6816e190b9137b10",
-    "url": "/static/js/main.ac4ea813.chunk.js"
+    "revision": "8d56b619742744319c31",
+    "url": "/static/js/main.6c9f7bb2.chunk.js"
   },
   {
     "revision": "1d8f1f3215e5900a254d",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "040f52430ebd95bbbf6c246892f3d7c8",
     "url": "/static/media/bugsleuth_logo.040f5243.png"
+  },
+  {
+    "revision": "ddf707fcdc40065184db2c500e7b2119",
+    "url": "/static/media/careermind_logo.ddf707fc.svg"
   },
   {
     "revision": "cacbc42b661f39344af81c631d8d36a9",
