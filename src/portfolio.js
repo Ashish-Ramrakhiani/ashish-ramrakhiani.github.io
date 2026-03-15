@@ -70,7 +70,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Proficient in multiple programming languages including Java, Python, JavaScript, TypeScript, SAP ABAP, C++, C#, R, and Julia",
-        "⚡ Experience with modern frameworks like React, Redux, Node.js, Express.js, Spring Boot, FastAPI, Next.js, and Bootstrap",
+        "⚡ Experience with modern frameworks like React, Redux, Next.js, Node.js, Express.js, Spring Boot, FastAPI, and Tailwind CSS",
         "⚡ Mobile development with Flutter and Android, plus web technologies like HTML, CSS, and PHP",
         "⚡ Database expertise with SQL and specialized in enterprise applications with SAP ABAP and Hibernate/JPA",
       ],
@@ -124,6 +124,16 @@ const skills = {
           skillName: "FastAPI",
           fontAwesomeClassname: "simple-icons:fastapi",
           style: { color: "#009688" },
+        },
+        {
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: { color: "#06B6D4" },
         },
         {
           skillName: "Flutter",
@@ -181,6 +191,11 @@ const skills = {
           skillName: "GraphQL",
           fontAwesomeClassname: "simple-icons:graphql",
           style: { color: "#E10098" },
+        },
+        {
+          skillName: "Prisma",
+          fontAwesomeClassname: "simple-icons:prisma",
+          style: { color: "#2D3748" },
         },
         {
           skillName: "JWT",
@@ -251,8 +266,8 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Advanced machine learning with Scikit-learn, TensorFlow for deep learning and genetic programming applications",
-        "⚡ Specialized in sentiment analysis, unsupervised learning techniques, and real-time data analysis",
-        "⚡ Database management with MongoDB, MySQL, Oracle, Snowflake, and modern data tools like DBT",
+        "⚡ Specialized in sentiment analysis, unsupervised learning, and LLM integration with multi-provider AI abstraction (Ollama, OpenAI, DeepSeek)",
+        "⚡ Database management with MongoDB, MySQL, SQLite, Oracle, Snowflake, and modern data tools like DBT",
         "⚡ Data pipeline orchestration with Apache Airflow and visualization with Tableau and Sigma",
       ],
       softwareSkills: [
@@ -275,6 +290,11 @@ const skills = {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: { color: "#4479A1" },
+        },
+        {
+          skillName: "SQLite",
+          fontAwesomeClassname: "simple-icons:sqlite",
+          style: { color: "#003B57" },
         },
         {
           skillName: "Apache Airflow",
