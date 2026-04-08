@@ -335,8 +335,8 @@ const degrees = {
       duration: "Sept 2023 - Mar 2026",
       descriptions: [
         "⚡ GPA: 3.96/4.0 — Graduate Research Assistant across two research labs",
-        "⚡ Developed BugSleuth (ICSE'25): unsupervised genetic algorithm that localizes 56.8% of 704 real-world bugs in top-5 predictions, outperforming supervised deep learning and LLM baselines",
-        "⚡ Architected EphFlow (CCGrid'26): multi-cloud serverless middleware extending AWS Lambda execution limits from 15 min to 90+ minutes via ephemeral EC2 provisioning",
+        // "⚡ Developed BugSleuth (ICSE'25): unsupervised genetic algorithm that localizes 56.8% of 704 real-world bugs in top-5 predictions, outperforming supervised deep learning and LLM baselines",
+        // "⚡ Architected EphFlow (CCGrid'26): multi-cloud serverless middleware extending AWS Lambda execution limits from 15 min to 90+ minutes via ephemeral EC2 provisioning",
         "⚡ Built language-agnostic RPC client libraries and a React-based visual DAG composer for serverless pipeline configuration",
       ],
       website_link: "https://oregonstate.edu/",
@@ -375,30 +375,30 @@ const experience = {
       title: "Professional Work",
       work: true,
       experiences: [
-        {
-          title: "R&D Software Engineer — Serverless Systems",
-          company: "HipCastor Labs (faasr.io)",
-          company_url: "https://faasr.io",
-          logo_path: "faasr_logo.png",
-          duration: "Sept 2024 - Present",
-          location: "Corvallis, OR, USA",
-          badge: ["Research", "Industry"],
-          description:
-            "Architected EphFlow (CCGrid'26), a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning; implemented the 3,600-line Python/FastAPI core from scratch. Built a React-based visual DAG composer enabling researchers to configure multi-cloud serverless pipelines, and engineered language-agnostic RPC client libraries (Python, R, Julia) with S3-based coordination validated across 1,051 invocations on AWS Lambda, GCP Cloud Run, GitHub Actions, OpenWhisk, and SLURM.",
-          color: "#4285F4",
-        },
-        {
-          title: "R&D Software Engineer — Automated Fault Localization",
-          company: "ANSWER Labs",
-          company_url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth",
-          logo_path: "osu_logo.png",
-          duration: "Sept 2023 - Aug 2024",
-          location: "Corvallis, OR, USA",
-          badge: ["Research", "Industry"],
-          description:
-            "Developed BugSleuth (ICSE'25), an unsupervised genetic algorithm for automated fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on the Defects4J benchmark with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Optimized rank aggregation by framing fault localization as an optimization problem using custom Spearman Footrule fitness, achieving a 3.3s average runtime per bug.",
-          color: "#DC6900",
-        },
+        // {
+        //   title: "R&D Software Engineer — Serverless Systems",
+        //   company: "HipCastor Labs (faasr.io)",
+        //   company_url: "https://faasr.io",
+        //   logo_path: "faasr_logo.png",
+        //   duration: "Sept 2024 - Present",
+        //   location: "Corvallis, OR, USA",
+        //   badge: ["Research", "Industry"],
+        //   description:
+        //     "Architected EphFlow (CCGrid'26), a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning; implemented the 3,600-line Python/FastAPI core from scratch. Built a React-based visual DAG composer enabling researchers to configure multi-cloud serverless pipelines, and engineered language-agnostic RPC client libraries (Python, R, Julia) with S3-based coordination validated across 1,051 invocations on AWS Lambda, GCP Cloud Run, GitHub Actions, OpenWhisk, and SLURM.",
+        //   color: "#4285F4",
+        // },
+        // {
+        //   title: "R&D Software Engineer — Automated Fault Localization",
+        //   company: "ANSWER Labs",
+        //   company_url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth",
+        //   logo_path: "osu_logo.png",
+        //   duration: "Sept 2023 - Aug 2024",
+        //   location: "Corvallis, OR, USA",
+        //   badge: ["Research", "Industry"],
+        //   description:
+        //     "Developed BugSleuth (ICSE'25), an unsupervised genetic algorithm for automated fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on the Defects4J benchmark with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Optimized rank aggregation by framing fault localization as an optimization problem using custom Spearman Footrule fitness, achieving a 3.3s average runtime per bug.",
+        //   color: "#DC6900",
+        // },
         {
           title: "Technical Lead & Senior Software Engineer",
           company: "Colgate Global Business Services",
@@ -455,30 +455,30 @@ const selectedProjects = {
         "Built a full-stack, self-hosted job search management platform with AI-powered resume review, semantic job matching, and automated job discovery. Architected a multi-provider AI abstraction layer (Ollama, OpenAI, DeepSeek) using the Vercel AI SDK with streaming responses. Engineered a cron-based automation engine that scrapes job boards, deduplicates results, and runs LLM-based match scoring against stored resumes on a configurable schedule. Implemented AES-256 encryption for API key storage, NextAuth credentials auth, and a full resume builder with PDF parsing. Deployed via Docker with multi-stage Alpine builds and SQLite persistence.",
       color: "#6366F1",
     },
-    {
-      title: "EphFlow: Multi-Cloud Serverless Middleware",
-      company: "Research Publication · CCGrid'26",
-      company_url: "https://faasr.io",
-      logo_path: "faasr_logo.png",
-      duration: "Sept 2024 - Present",
-      location: "Corvallis, OR",
-      badge: ["Research", "Open Source"],
-      description:
-        "Architected a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning; implemented the 3,600-line Python/FastAPI core from scratch. Built a React-based visual DAG composer enabling researchers to configure multi-cloud serverless pipelines, and engineered language-agnostic RPC client libraries (Python, R, Julia) with S3-based coordination validated across 1,051 invocations on 5 platforms.",
-      color: "#4285F4",
-    },
-    {
-      title: "BugSleuth: Automated Fault Localization",
-      company: "Research Publication · ICSE'25",
-      company_url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth",
-      logo_path: "bugsleuth_logo.png",
-      duration: "Sept 2023 - Aug 2024",
-      location: "Corvallis, OR",
-      description:
-        "Developed an unsupervised genetic algorithm for fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on Defects4J with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Framed rank aggregation as an optimization problem using custom Spearman Footrule fitness, achieving a 3.3s average runtime per bug.",
-      color: "#DC6900",
-      badge: ["Research", "Open Source"],
-    },
+    // {
+    //   title: "EphFlow: Multi-Cloud Serverless Middleware",
+    //   company: "Research Publication · CCGrid'26",
+    //   company_url: "https://faasr.io",
+    //   logo_path: "faasr_logo.png",
+    //   duration: "Sept 2024 - Present",
+    //   location: "Corvallis, OR",
+    //   badge: ["Research", "Open Source"],
+    //   description:
+    //     "Architected a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning; implemented the 3,600-line Python/FastAPI core from scratch. Built a React-based visual DAG composer enabling researchers to configure multi-cloud serverless pipelines, and engineered language-agnostic RPC client libraries (Python, R, Julia) with S3-based coordination validated across 1,051 invocations on 5 platforms.",
+    //   color: "#4285F4",
+    // },
+    // {
+    //   title: "BugSleuth: Automated Fault Localization",
+    //   company: "Research Publication · ICSE'25",
+    //   company_url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth",
+    //   logo_path: "bugsleuth_logo.png",
+    //   duration: "Sept 2023 - Aug 2024",
+    //   location: "Corvallis, OR",
+    //   description:
+    //     "Developed an unsupervised genetic algorithm for fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on Defects4J with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Framed rank aggregation as an optimization problem using custom Spearman Footrule fitness, achieving a 3.3s average runtime per bug.",
+    //   color: "#DC6900",
+    //   badge: ["Research", "Open Source"],
+    // },
     {
       title: "Viva Mind: Mental Health Journaling Platform",
       company: "Startup · Co-Founded",
@@ -594,20 +594,20 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    {
-      id: "ephflow-ccgrid26-pub",
-      name: "EphFlow: Extending AWS Lambda Execution Limits via Ephemeral VM Provisioning (CCGrid'26)",
-      createdAt: "2026-01-01T00:00:00Z",
-      description: "Architected a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning. Implemented a 3,600-line Python/FastAPI core from scratch and validated the framework across 5 platforms (AWS Lambda, GCP Cloud Run, GitHub Actions, OpenWhisk, SLURM) with 1,051 invocations.",
-      url: "https://faasr.io",
-    },
-    {
-      id: "bugsleuth-icse25-pub",
-      name: "BugSleuth: Unsupervised Fault Localization using Genetic Programming (ICSE'25)",
-      createdAt: "2025-01-01T00:00:00Z",
-      description: "Developed an unsupervised genetic algorithm for automated fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on the Defects4J benchmark with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Achieved a 3.3s average runtime per bug using custom Spearman Footrule fitness for rank aggregation.",
-      url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth/",
-    },
+    // {
+    //   id: "ephflow-ccgrid26-pub",
+    //   name: "EphFlow: Extending AWS Lambda Execution Limits via Ephemeral VM Provisioning (CCGrid'26)",
+    //   createdAt: "2026-01-01T00:00:00Z",
+    //   description: "Architected a multi-cloud serverless middleware that transparently extends AWS Lambda execution limits from 15 minutes to 90+ minutes via ephemeral EC2 VM provisioning. Implemented a 3,600-line Python/FastAPI core from scratch and validated the framework across 5 platforms (AWS Lambda, GCP Cloud Run, GitHub Actions, OpenWhisk, SLURM) with 1,051 invocations.",
+    //   url: "https://faasr.io",
+    // },
+    // {
+    //   id: "bugsleuth-icse25-pub",
+    //   name: "BugSleuth: Unsupervised Fault Localization using Genetic Programming (ICSE'25)",
+    //   createdAt: "2025-01-01T00:00:00Z",
+    //   description: "Developed an unsupervised genetic algorithm for automated fault localization that outperforms supervised deep learning and LLM baselines (CodeGen-16B) on the Defects4J benchmark with zero training data — localizing 56.8% of 704 real-world bugs in top-5 predictions. Achieved a 3.3s average runtime per bug using custom Spearman Footrule fitness for rank aggregation.",
+    //   url: "https://github.com/Ashish-Ramrakhiani/BugLocalization_BugSleuth/",
+    // },
   ],
 };
 
